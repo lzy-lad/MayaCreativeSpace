@@ -17,14 +17,23 @@ body {
 :root {
     --primary-color: #FF3B3B; /* More vibrant red */
     --secondary-color: #ffffff; /* White */
+    --teritiary-color: #ff4f8f; /* White */
     --text-color: #2C3E50; /* Dark blue-gray */
 }
 
 /* Typography */
-h1, h2, h3 {
+h1 {
+    color: var(--secondary-color);
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 6rem;
+}
+
+h2, h3 {
     color: var(--primary-color);
     margin-bottom: 1.5rem;
     font-weight: bold;
+    font-size: large;
 }
 
 p {
@@ -85,7 +94,7 @@ nav ul li a:hover {
 }
 
 #hero h1 {
-    font-size: 4rem;
+    font-size: 6rem;
     margin-bottom: 1rem;
     text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
